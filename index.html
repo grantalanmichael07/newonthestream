@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>On The Stream — A Short Documentary Film</title>
+<meta name="description" content="On The Stream is a short documentary film about an Indiana fly fisherman who finds peace, community, and healing in the current. Watch the trailer, explore behind the scenes, and follow the festival journey.">
+<link rel="canonical" href="https://www.onthestreamfilm.com/">
+<meta property="og:site_name" content="On The Stream">
+<meta property="og:url" content="https://www.onthestreamfilm.com/">
+<meta property="og:title" content="On The Stream — A Short Documentary Film">
+<meta property="og:description" content="An Indiana fly fisherman finds peace, community, and healing in the current. Watch the trailer and follow the festival journey.">
+<meta property="og:type" content="video.movie">
+<meta property="og:image" content="https://www.onthestreamfilm.com/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="On The Stream — a short documentary film">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="On The Stream — A Short Documentary Film">
+<meta name="twitter:description" content="An Indiana fly fisherman finds peace, community, and healing in the current. Watch the trailer and follow the festival journey.">
+<meta name="twitter:image" content="https://www.onthestreamfilm.com/og-card.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Movie",
+  "name": "On The Stream",
+  "url": "https://www.onthestreamfilm.com/",
+  "image": "https://www.onthestreamfilm.com/og-card.jpg",
+  "description": "On The Stream is a short documentary about Al White, an Indiana fly fisherman whose time on the river becomes a reflection on life, healing, and community.",
+  "genre": "Documentary",
+  "inLanguage": "en",
+  "datePublished": "2026",
+  "director": { "@type": "Person", "name": "Grant Michael" },
+  "actor": { "@type": "Person", "name": "Al White" },
+  "duration": "PT13M",
+  "trailer": {
+    "@type": "VideoObject",
+    "name": "On The Stream — Official Trailer",
+    "description": "Official trailer for On The Stream, a short documentary film.",
+    "thumbnailUrl": "https://www.onthestreamfilm.com/og-card.jpg",
+    "uploadDate": "2026",
+    "embedUrl": "https://player.vimeo.com/video/1172282670"
+  }
+}
+</script>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#211c16">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --radius: 0.25rem;
+    --background: oklch(0.16 0.012 60);
+    --foreground: oklch(0.95 0.02 80);
+    --card: oklch(0.20 0.014 60);
+    --primary: oklch(0.78 0.14 65);
+    --primary-foreground: oklch(0.16 0.012 60);
+    --muted-foreground: oklch(0.68 0.02 70);
+    --border: oklch(0.30 0.012 60 / 60%);
+    --gradient-fade: linear-gradient(180deg, transparent 0%, oklch(0.16 0.012 60 / 0.4) 50%, oklch(0.16 0.012 60) 100%);
+    --shadow-glow: 0 20px 60px -20px oklch(0.78 0.14 65 / 0.35);
+    --font-display: "Fraunces", ui-serif, Georgia, serif;
+    --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin: 0;
+  }
+
+  a { color: inherit; text-decoration: none; }
+  p { margin: 0; }
+  ul { margin: 0; padding: 0; list-style: none; }
+  img { display: block; max-width: 100%; }
+
+  .font-display { font-family: var(--font-display); }
+
+  section { scroll-margin-top: 6rem; }
+
+  /* ---------- Header ---------- */
+  header {
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+    border-bottom: 1px solid var(--border);
+    background-color: oklch(0.16 0.012 60 / 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .header-inner {
+    margin: 0 auto;
+    max-width: 80rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+  }
+  .logo {
+    font-family: var(--font-display);
+    font-size: 1.125rem;
+    letter-spacing: -0.02em;
+  }
+  .logo em { font-style: italic; color: var(--primary); }
+  nav.main-nav {
+    display: none;
+    align-items: center;
+    gap: 2rem;
+    font-size: 0.875rem;
+    color: var(--muted-foreground);
+  }
+  nav.main-nav a { transition: color 0.2s; }
+  nav.main-nav a:hover { color: var(--foreground); }
+  .btn-pill {
+    border-radius: 9999px;
+    border: 1px solid oklch(0.78 0.14 65 / 0.4);
+    background-color: oklch(0.78 0.14 65 / 0.1);
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--primary);
+    transition: background-color 0.2s, color 0.2s;
+    white-space: nowrap;
+  }
+  .btn-pill:hover { background-color: var(--primary); color: var(--primary-foreground); }
+
+  @media (min-width: 768px) {
+    nav.main-nav { display: flex; }
+  }
+
+  /* ---------- Hero ---------- */
+  #top {
+    position: relative;
+    height: 100vh;
+    min-height: 640px;
+    width: 100%;
+    overflow: hidden;
+  }
+  #top .hero-img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 60% center;
+  }
+  #top::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.08;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.6'/></svg>");
+  }
+  .hero-fade { position: absolute; inset: 0; background: var(--gradient-fade); }
+  .hero-tint { position: absolute; inset: 0; background: linear-gradient(to right, oklch(0.16 0.012 60 / 0.7), oklch(0.16 0.012 60 / 0.3), transparent); }
+  .hero-content {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 1.5rem 5rem;
+  }
+  .hero-eyebrow {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    color: var(--primary);
+    opacity: 0;
+    animation: fade-up 1s ease-out both;
+  }
+  .hero-title {
+    margin-top: 1.5rem;
+    max-width: 60rem;
+    font-size: 3.75rem;
+    line-height: 0.95;
+    text-wrap: balance;
+    opacity: 0;
+    animation: fade-up 1s ease-out .15s both;
+  }
+  .hero-title em { font-weight: 300; font-style: italic; color: var(--primary); }
+  .hero-sub {
+    margin-top: 2rem;
+    max-width: 34rem;
+    font-size: 1rem;
+    color: var(--muted-foreground);
+    opacity: 0;
+    animation: fade-up 1s ease-out .3s both;
+  }
+  .hero-actions {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    opacity: 0;
+    animation: fade-up 1s ease-out .5s both;
+  }
+  .btn-play {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    border-radius: 9999px;
+    background-color: var(--primary);
+    padding: 0.75rem 1.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--primary-foreground);
+    transition: transform 0.2s;
+  }
+  .btn-play:hover { transform: scale(1.02); }
+  .btn-play .play-icon {
+    display: grid;
+    place-items: center;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 9999px;
+    background-color: oklch(0.16 0.012 60 / 0.2);
+  }
+  .link-underline {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: oklch(0.95 0.02 80 / 0.8);
+    text-underline-offset: 8px;
+  }
+  .link-underline:hover { text-decoration: underline; }
+
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (min-width: 768px) {
+    #top .hero-img { object-position: 55% center; }
+    .hero-content { padding: 0 4rem 7rem; }
+    .hero-title { font-size: 6rem; }
+  }
+  @media (min-width: 1024px) {
+    .hero-title { font-size: 8rem; }
+  }
+
+  /* ---------- Section label ---------- */
+  .section-label {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .section-label.center { justify-content: center; }
+  .section-label .num { font-family: var(--font-display); font-size: 0.875rem; color: var(--primary); }
+  .section-label .rule { height: 1px; width: 2.5rem; background-color: oklch(0.78 0.14 65 / 0.6); }
+  .section-label .label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.3em; color: var(--muted-foreground); }
+
+  /* ---------- Trailer ---------- */
+  #trailer { padding: 6rem 1rem; }
+  .wrap-6xl { margin: 0 auto; max-width: 72rem; }
+  .trailer-frame {
+    margin-top: 2rem;
+    overflow: hidden;
+    border-radius: 2px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-glow);
+  }
+  .trailer-frame .ratio {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    width: 100%;
+    background: black;
+  }
+  .trailer-frame iframe { position: absolute; inset: 0; height: 100%; width: 100%; border: 0; }
+  .trailer-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    height: 68px;
+    border-radius: 9999px;
+    border: none;
+    background-color: var(--primary);
+    color: var(--primary-foreground);
+    opacity: 0.92;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+  }
+  .trailer-play:hover { transform: translate(-50%, -50%) scale(1.08); opacity: 1; }
+  .trailer-play.is-playing { opacity: 0; pointer-events: none; }
+  .trailer-frame .ratio:hover .trailer-play.is-playing { opacity: 0.85; pointer-events: auto; }
+  .trailer-play .icon-play, .trailer-play .icon-pause {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .trailer-play .icon-play { padding-left: 4px; }
+  .trailer-play .icon-pause { display: none; gap: 5px; }
+  .trailer-play.is-playing .icon-play { display: none; }
+  .trailer-play.is-playing .icon-pause { display: flex; }
+  .trailer-play .bar { width: 6px; height: 22px; background: currentColor; border-radius: 1px; }
+  .trailer-play svg { width: 26px; height: 26px; }
+
+  @media (min-width: 768px) { #trailer { padding: 8rem 1rem; } }
+
+  /* ---------- About ---------- */
+  #film {
+    border-top: 1px solid var(--border);
+    padding: 6rem 1.5rem;
+  }
+  .about-grid {
+    margin: 0 auto;
+    max-width: 72rem;
+    display: grid;
+    gap: 4rem;
+  }
+  .poster-img {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 220px;
+    border-radius: 2px;
+    box-shadow: var(--shadow-glow);
+  }
+  .about-body h2 {
+    font-size: 2.25rem;
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+  .about-body .copy {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: var(--muted-foreground);
+  }
+  .about-body .copy em { font-style: italic; color: var(--foreground); }
+  .stat-grid {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1.5rem;
+    border-top: 1px solid var(--border);
+    padding-top: 2.5rem;
+    font-size: 0.875rem;
+  }
+  .stat-grid dt { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.3em; color: var(--muted-foreground); }
+  .stat-grid dd { margin: 0.5rem 0 0; font-family: var(--font-display); font-size: 1.25rem; }
+
+  @media (min-width: 640px) {
+    .stat-grid { grid-template-columns: repeat(4, 1fr); }
+  }
+  @media (min-width: 768px) {
+    #film { padding: 9rem 1.5rem; }
+    .about-body h2 { font-size: 3.75rem; }
+    .poster-img { max-width: 280px; }
+  }
+  @media (min-width: 768px) {
+    .about-grid { grid-template-columns: repeat(12, 1fr); }
+    .about-label { grid-column: span 4; }
+    .about-body { grid-column: span 8; }
+  }
+
+  /* ---------- Stills / BTS grids ---------- */
+  #stills, #bts { border-top: 1px solid var(--border); padding: 6rem 1.5rem; }
+  #bts { background-color: oklch(0.20 0.014 60 / 0.4); }
+  .wrap-7xl { margin: 0 auto; max-width: 80rem; }
+  #stills h2 { margin-top: 2rem; max-width: 48rem; font-size: 1.875rem; line-height: 1.2; text-wrap: balance; }
+
+  .media-grid {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  .media-grid figure {
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+    background-color: oklch(0.22 0.012 60);
+    margin: 0;
+  }
+  .media-grid img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.7s ease-out;
+  }
+  .media-grid figure:hover img { transform: scale(1.04); }
+
+  @media (min-width: 768px) {
+    #stills, #bts { padding: 9rem 1.5rem; }
+    #stills h2 { font-size: 3rem; }
+    .media-grid { grid-template-columns: repeat(12, 1fr); }
+    .s-a { grid-column: span 8; aspect-ratio: 16/10; }
+    .s-b { grid-column: span 4; aspect-ratio: 4/5; }
+    .s-c { grid-column: span 4; aspect-ratio: 4/5; }
+    .s-d { grid-column: span 4; aspect-ratio: 4/5; }
+    .s-e { grid-column: span 4; aspect-ratio: 4/5; }
+    .s-f { grid-column: span 8; aspect-ratio: 16/9; }
+    .s-g { grid-column: span 4; aspect-ratio: 4/5; }
+    .b-a { grid-column: span 7; grid-row: span 2; aspect-ratio: auto; }
+    .b-b { grid-column: span 5; aspect-ratio: 4/3; }
+    .b-c { grid-column: span 5; aspect-ratio: 4/3; }
+    .b-d { grid-column: span 12; aspect-ratio: 21/9; }
+  }
+  @media (max-width: 767px) {
+    .s-b, .s-c, .s-d, .s-e, .s-g { aspect-ratio: 4/5; }
+    .s-a, .s-f { aspect-ratio: 16/10; }
+    .b-a, .b-c { aspect-ratio: 4/5; }
+    .b-b { aspect-ratio: 4/3; }
+    .b-d { aspect-ratio: 21/9; }
+  }
+
+  /* ---------- Watch ---------- */
+  #watch { border-top: 1px solid var(--border); padding: 6rem 1.5rem; }
+  .wrap-4xl { margin: 0 auto; max-width: 56rem; text-align: center; }
+  #watch h2 { margin-top: 2rem; font-size: 2.25rem; line-height: 1.15; text-wrap: balance; }
+  #watch .lede { margin-top: 1.25rem; font-size: 1.0625rem; color: var(--muted-foreground); }
+
+  .laurel-grid {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    text-align: left;
+  }
+  .laurel-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    min-height: 200px;
+    padding: 1.5rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    text-align: center;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .laurel-card:hover { border-color: oklch(0.78 0.14 65 / 0.6); transform: translateY(-2px); }
+  .laurel-img-wrap {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .laurel-card img { width: 140px; max-width: 100%; height: auto; }
+  .laurel-loc { font-size: 0.6875rem; line-height: 1.7; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted-foreground); }
+  .laurel-name { font-family: var(--font-display); font-size: 1.125rem; line-height: 1.3; }
+  .laurel-badge { font-size: 0.6875rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--primary); }
+
+  @media (min-width: 768px) {
+    #watch { padding: 9rem 1.5rem; }
+    #watch h2 { font-size: 3.75rem; }
+    .laurel-grid { grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+    .laurel-card { min-height: 240px; padding: 2rem 1.25rem; }
+    .laurel-card img { width: 160px; }
+  }
+
+  .watch-links {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--muted-foreground);
+  }
+  .watch-links a:hover { color: var(--foreground); }
+
+  /* ---------- Footer ---------- */
+  footer { border-top: 1px solid var(--border); padding: 2.5rem 1.5rem; }
+  .footer-inner {
+    margin: 0 auto;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--muted-foreground);
+  }
+  .footer-inner .credit {
+    font-family: var(--font-display);
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+  @media (min-width: 768px) {
+    .footer-inner { flex-direction: row; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-delay: 0ms !important;
+      transition-duration: 0.001ms !important;
+    }
+    .hero-eyebrow, .hero-title, .hero-sub, .hero-actions { opacity: 1; }
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="#top" class="logo">On <em>the</em> Stream</a>
+      <nav class="main-nav">
+        <a href="#trailer">Trailer</a>
+        <a href="#film">The Film</a>
+        <a href="#stills">Stills</a>
+        <a href="#bts">Behind the Scenes</a>
+        <a href="#watch">Watch</a>
+      </nav>
+      <a href="#trailer" class="btn-pill">Watch trailer</a>
+    </div>
+  </header>
+
+  <section id="top">
+    <img src="still-8.jpg" alt="Close-up of Al's hands stripping fly line from a cork-handled rod" width="1800" height="1348" fetchpriority="high" class="hero-img">
+    <div class="hero-fade"></div>
+    <div class="hero-tint"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">A Short Documentary Film</p>
+      <h1 class="hero-title font-display">On <em>the</em> Stream</h1>
+      <p class="hero-sub">An Indiana fly fisherman finds peace, community, and healing in the current.</p>
+      <div class="hero-actions">
+        <a href="#trailer" class="btn-play">
+          <span class="play-icon">▸</span>
+          Play trailer
+        </a>
+        <a href="#film" class="link-underline">About the film</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="trailer">
+    <div class="wrap-6xl">
+      <div class="section-label"><span class="num">01</span><span class="rule"></span><span class="label">Trailer</span></div>
+      <div class="trailer-frame">
+        <div class="ratio">
+          <iframe id="trailerIframe" src="https://player.vimeo.com/video/1172282670?h=fc44d189ec&title=0&byline=0&portrait=0&controls=0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="On The Stream — Trailer"></iframe>
+          <button id="trailerPlayBtn" class="trailer-play" aria-label="Play trailer">
+            <span class="icon-play">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4l14 8-14 8V4z"/></svg>
+            </span>
+            <span class="icon-pause">
+              <span class="bar"></span><span class="bar"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="film">
+    <div class="about-grid">
+      <div class="about-label">
+        <div class="section-label"><span class="num">02</span><span class="rule"></span><span class="label">The Film</span></div>
+        <img class="poster-img" src="poster.jpg" alt="On The Stream — official film poster">
+      </div>
+      <div class="about-body">
+        <h2 class="font-display">The river taught him to stand still.</h2>
+        <div class="copy">
+          <p><em>On The Stream</em> is a short documentary about Al White, an Indiana fly fisherman whose time on the river becomes a reflection on life. After a turbulent youth, Al finds peace in fly fishing and discovers that the water can be a place of healing.</p>
+          <p>Along the way he builds community in unexpected places and encourages others to find their own path to peace.</p>
+        </div>
+        <dl class="stat-grid">
+          <div><dt>Runtime</dt><dd class="font-display">13 min</dd></div>
+          <div><dt>Year</dt><dd class="font-display">2026</dd></div>
+          <div><dt>Format</dt><dd class="font-display">Digital · 4:3</dd></div>
+          <div><dt>Language</dt><dd class="font-display">English</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section id="stills">
+    <div class="wrap-7xl">
+      <div class="section-label"><span class="num">03</span><span class="rule"></span><span class="label">Stills</span></div>
+      <h2 class="font-display">Frames from the film.</h2>
+      <div class="media-grid">
+        <figure class="s-a"><img src="still-5.jpg" alt="Al wading into a wide Indiana stream surrounded by summer trees" loading="lazy"></figure>
+        <figure class="s-b"><img src="still-1.jpg" alt="Quiet portrait of Al in cap and glasses, lit by warm interior light" loading="lazy"></figure>
+        <figure class="s-c"><img src="still-2.jpg" alt="Hands holding a stack of vintage family photographs" loading="lazy"></figure>
+        <figure class="s-d"><img src="still-4.jpg" alt="Al on the bank at golden hour with rod, vest and net" loading="lazy"></figure>
+        <figure class="s-e"><img src="still-7.jpg" alt="Backlit silhouette of Al with sun flare across the brim of his cap" loading="lazy"></figure>
+        <figure class="s-f"><img src="still-6.jpg" alt="Aerial view of a misty Indiana river at sunrise" loading="lazy"></figure>
+        <figure class="s-g"><img src="still-3.jpg" alt="Fly and line catching light mid-cast against a green bokeh background" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="bts">
+    <div class="wrap-7xl">
+      <div class="section-label"><span class="num">04</span><span class="rule"></span><span class="label">Behind the Scenes</span></div>
+      <div class="media-grid">
+        <figure class="b-a"><img src="bts-1.jpg" alt="Sound recordist with boom microphone in a misty meadow at dawn" loading="lazy"></figure>
+        <figure class="b-b"><img src="bts-2.jpg" alt="Cinematographer filming from inside a vehicle" loading="lazy"></figure>
+        <figure class="b-c"><img src="bts-4.jpg" alt="Director filming Al tying a fly at the stream" loading="lazy"></figure>
+        <figure class="b-d"><img src="bts-3.jpg" alt="Camera and sound crew with Al at a roadside fence" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="watch">
+    <div class="wrap-4xl">
+      <div class="section-label center"><span class="num">05</span><span class="rule"></span><span class="label">Where to Watch</span></div>
+      <h2 class="font-display">Follow the festival journey.</h2>
+      <p class="lede">On The Stream is currently playing the festival circuit. Tickets and screening times are handled by each festival — click through for details.</p>
+
+      <div class="laurel-grid">
+        <a class="laurel-card" href="https://www.heartlandfilm.org/indyshorts" target="_blank" rel="noreferrer">
+          <div class="laurel-img-wrap"><img src="laurel-indyshorts.png" alt="Indy Shorts Film Festival — 2026 Official Selection"></div>
+          <span class="laurel-loc">Indianapolis<br>Indiana</span>
+        </a>
+        <a class="laurel-card" href="https://www.lovelandfilmfest.org/" target="_blank" rel="noreferrer">
+          <div class="laurel-img-wrap"><img src="laurel-loveland.png" alt="Loveland Shorts Film Festival — 2026 Official Selection"></div>
+          <span class="laurel-loc">Loveland<br>Ohio</span>
+        </a>
+        <a class="laurel-card" href="https://www.schoharierivercenter.org/mayfly-film-festival" target="_blank" rel="noreferrer">
+          <div class="laurel-img-wrap"><img src="laurel-mayfly.png" alt="Mayfly Film Festival — Official Selection"></div>
+          <span class="laurel-loc">Schenectady<br>New York</span>
+        </a>
+        <a class="laurel-card" href="https://riverbendfilmfest.com/" target="_blank" rel="noreferrer">
+          <div class="laurel-img-wrap"><img src="laurel-riverbend.png" alt="River Bend Film Festival — 2026 Official Selection"></div>
+          <span class="laurel-loc">Goshen<br>Indiana</span>
+        </a>
+      </div>
+
+      <div class="watch-links">
+        <a href="https://www.instagram.com/onthestream.film" target="_blank" rel="noreferrer">Instagram</a>
+        <span>·</span>
+        <a href="mailto:imgrantmichael@gmail.com?subject=Press%20inquiry%20%E2%80%94%20On%20The%20Stream">Press inquiries</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <span id="year-copy">© 2026 On The Stream</span>
+      <span class="credit font-display">a Grant Michael film</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year-copy').textContent = '© ' + new Date().getFullYear() + ' On The Stream';
+
+    (function () {
+      var iframe = document.getElementById('trailerIframe');
+      var btn = document.getElementById('trailerPlayBtn');
+      var origin = 'https://player.vimeo.com';
+
+      function post(method, value) {
+        var msg = value === undefined ? { method: method } : { method: method, value: value };
+        iframe.contentWindow.postMessage(JSON.stringify(msg), origin);
+      }
+
+      iframe.addEventListener('load', function () {
+        post('addEventListener', 'play');
+        post('addEventListener', 'pause');
+        post('addEventListener', 'ended');
+      });
+
+      btn.addEventListener('click', function () {
+        post(btn.classList.contains('is-playing') ? 'pause' : 'play');
+      });
+
+      window.addEventListener('message', function (e) {
+        if (e.origin !== origin) return;
+        var data;
+        try { data = JSON.parse(e.data); } catch (err) { return; }
+        if (data.event === 'play') {
+          btn.classList.add('is-playing');
+          btn.setAttribute('aria-label', 'Pause trailer');
+        }
+        if (data.event === 'pause' || data.event === 'ended') {
+          btn.classList.remove('is-playing');
+          btn.setAttribute('aria-label', 'Play trailer');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
